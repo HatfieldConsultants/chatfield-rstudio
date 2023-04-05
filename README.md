@@ -39,7 +39,7 @@ devtools::install_github("HatfieldConsultants/chatfield-rstudio")
 Load the package in your R session:
 
 ``` r
-library(chatfield)
+library(CHatField)
 ```
 
 ### Step 3: Set up your OpenAI API Key
