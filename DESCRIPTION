@@ -1,6 +1,6 @@
 Package: CHatField
 Type: Package
-Title: ChatField for RStudio
+Title: CHatField for RStudio
 Version: 0.1.0
 Author: Jonathan Trueblood
 Maintainer: Jonathan Trueblood <jtrueblood@hatfieldgroup.com>
