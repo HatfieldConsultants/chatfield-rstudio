@@ -14,6 +14,8 @@ Key features of CHatField include:
 
 -   Seamless integration with RStudio's API for a smooth user experience.
 
+-   Continue button for prompting ChatGPT to finish its response for the times it stops mid-answer.
+
 ## Quick-Start
 
 Follow these simple steps to install and start using the CHatField package in RStudio.
