@@ -78,6 +78,10 @@ That's it! You've successfully installed and set up the CHatField package in RSt
 
 ![](images/optimize_code_example.gif)
 
+#### Debug Code
+
+![](images/find_issues_example.gif)
+
 #### Save Conversations
 
 ![](images/make_log_example.gif)
