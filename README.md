@@ -88,4 +88,4 @@ This project builds off of the great ChatGPT R client found here: <https://githu
 
 ## About the Name
 
-CHatField is a portmanteau of ChatGPT, our company name Hatfield, and the initial's our company's founder Chris Hatfield (CH).
+CHatField is a portmanteau of ChatGPT, our company name Hatfield, and the initials of our company founder Chris Hatfield (CH).
