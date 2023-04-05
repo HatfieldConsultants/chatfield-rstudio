@@ -40,4 +40,4 @@ Key features of CHatField include:
 
 ## Acknowledgments
 
-This project builds off of ChatGPT client found here: <https://github.com/jcrodriguez1989/chatgpt>
+This project builds off of the great ChatGPT R client found here: <https://github.com/jcrodriguez1989/chatgpt>

@@ -1,4 +1,4 @@
-Name: ChatGPT Addin
+Name: ChatField for R Studio
 Description: An RStudio addin that uses the chatgpt R package as a backend to interact with OpenAI's GPT model.
 Binding: chatgpt_addin
 Interactive: true
