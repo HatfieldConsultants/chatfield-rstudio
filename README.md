@@ -16,6 +16,50 @@ Key features of CHatField include:
 
 ## Quick-Start
 
+Follow these simple steps to install and start using the CHatField package in RStudio.
+
+### Step 1: Install
+
+To install the package from GitHub, you will need the devtools package. Install it if you don't have it already:
+
+``` r
+if (!requireNamespace("devtools", quietly = TRUE)) {
+  install.packages("devtools")
+}
+```
+
+Now, install the CHatField package using devtools::install_github():
+
+``` r
+devtools::install_github("HatfieldConsultants/chatfield-rstudio")
+```
+
+### Step 2: Load the package
+
+Load the package in your R session:
+
+``` r
+library(chatfield)
+```
+
+### Step 3: Set up your OpenAI API Key
+
+The CHatField package requires an OpenAI API key to function. If you have not set up your API key in your .Renviron file, the package will prompt you to enter it when you first run the chatgpt_addin() function. Ask the Digital Solutions Group for an OpenAI key if you do not have one.
+
+### Step 4: Launch the CHatField addin
+
+To launch the CHatField addin in RStudio, simply run the following command:
+
+``` r
+chatgpt_addin()
+```
+
+Alternatively you can select CHatField from the Addins dropdown in the menu bar of RStudio.
+
+This will open the CHatField interface within RStudio, where you can start interacting with ChatGPT to improve your code.
+
+That's it! You've successfully installed and set up the CHatField package in RStudio. Enjoy using ChatGPT to enhance your R programming experience.
+
 ## Demonstrations
 
 #### Write code
@@ -41,3 +85,7 @@ Key features of CHatField include:
 ## Acknowledgments
 
 This project builds off of the great ChatGPT R client found here: <https://github.com/jcrodriguez1989/chatgpt>
+
+## About the Name
+
+CHatField is a portmanteau of ChatGPT, our company name Hatfield, and the initial's our company's founder Chris Hatfield (CH).
