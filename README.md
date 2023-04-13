@@ -62,6 +62,20 @@ This will open the CHatField interface within RStudio, where you can start inter
 
 That's it! You've successfully installed and set up the CHatField package in RStudio. Enjoy using ChatGPT to enhance your R programming experience.
 
+## Configuration Options
+
+To use your own API subscription, go to gpt_get_completions and alter the host name found in the POST request. The request format should be compatible with OpenAI's version if you're using that instead of Azure OpenAI.
+
+The following environment variables can be set to alter the model's attributes (see Azure OpenAI documentation for explanations):
+
+OPENAI_GPT_MODEL
+OPENAI_API_KEY
+OPENAI_MAX_TOKENS
+OPENAI_TEMPERATURE
+OPENAI_TOP_P
+OPENAI_FREQUENCY_PENALTY
+OPENAI_PRESENCE_PENALT
+
 ## Demonstrations
 
 #### Write code

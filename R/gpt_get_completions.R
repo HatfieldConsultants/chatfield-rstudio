@@ -40,7 +40,7 @@ gpt_get_completions <- function(prompt, openai_api_key = Sys.getenv("OPENAI_API_
       )
 
       post_res <- POST(
-        "https://hatconopenaitesting.openai.azure.com/openai/deployments/gpt-35-turbo/chat/completions?api-version=2023-03-15-preview",
+        paste0("https://hatconopenaitesting.openai.azure.com/openai/deployments/", Sys.getenv("OPENAI_GPT_MODEL"), "/chat/completions?api-version=2023-03-15-preview"),
         add_headers("Authorization" = paste("Bearer", openai_api_key),
                     "api-key" = openai_api_key),
         content_type_json(),
