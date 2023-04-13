@@ -1,7 +1,7 @@
 Package: CHatField
 Type: Package
 Title: CHatField for RStudio
-Version: 0.1.0
+Version: 0.2.0
 Author: Jonathan Trueblood
 Maintainer: Jonathan Trueblood <jtrueblood@hatfieldgroup.com>
 Description: Provides an interactive interface to ChatGPT within RStudio. 
