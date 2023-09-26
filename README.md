@@ -1,8 +1,8 @@
-# CHatField for RStudio
+# Chatfield for RStudio
 
-CHatField for RStudio provides an interactive interface to ChatGPT within RStudio. It allows users to easily consult ChatGPT for a variety of tasks, such as code explanations, code completion, optimization, and refactoring. The package is designed to make it simple for users to receive code suggestions and implement them directly in their R scripts.
+Chatfield for RStudio provides an interactive interface to ChatGPT within RStudio. It allows users to easily consult ChatGPT for a variety of tasks, such as code explanations, code completion, optimization, and refactoring. The package is designed to make it simple for users to receive code suggestions and implement them directly in their R scripts.
 
-Key features of CHatField include:
+Key features of Chatfield include:
 
 -   A user-friendly UI with a conversation log to track interactions with ChatGPT.
 
@@ -30,7 +30,7 @@ if (!requireNamespace("devtools", quietly = TRUE)) {
 }
 ```
 
-Now, install the CHatField package using devtools::install_github():
+Now, install the Chatfield package using devtools::install_github():
 
 ``` r
 devtools::install_github("HatfieldConsultants/chatfield-rstudio")
@@ -50,15 +50,15 @@ The CHatField package requires an OpenAI API key to function. If you have not se
 
 ### Step 4: Launch the CHatField addin
 
-To launch the CHatField addin in RStudio, simply run the following command:
+To launch the Chatfield addin in RStudio, simply run the following command:
 
 ``` r
 chatgpt_addin()
 ```
 
-Alternatively you can select CHatField from the Addins dropdown in the menu bar of RStudio.
+Alternatively you can select Chatfield from the Addins dropdown in the menu bar of RStudio.
 
-This will open the CHatField interface within RStudio, where you can start interacting with ChatGPT to improve your code.
+This will open the Chatfield interface within RStudio, where you can start interacting with ChatGPT to improve your code.
 
 That's it! You've successfully installed and set up the CHatField package in RStudio. Enjoy using ChatGPT to enhance your R programming experience.
 
@@ -108,4 +108,4 @@ This project builds off of the great ChatGPT R client found here: <https://githu
 
 ## About the Name
 
-CHatField is a portmanteau of ChatGPT, our company name Hatfield, and the initials of our company founder Chris Hatfield (CH).
+Chatfield is a portmanteau of ChatGPT, our company name Hatfield, and the initials of our company founder Chris Hatfield (CH).
