@@ -1,3 +1,5 @@
+**This system is not maintained, and will not be continued. People should instead use [GitHub CoPilot for RStudio](https://docs.posit.co/ide/user/ide/guide/tools/copilot.html)**
+
 # Chatfield for RStudio
 
 Chatfield for RStudio provides an interactive interface to ChatGPT within RStudio. It allows users to easily consult ChatGPT for a variety of tasks, such as code explanations, code completion, optimization, and refactoring. The package is designed to make it simple for users to receive code suggestions and implement them directly in their R scripts.
